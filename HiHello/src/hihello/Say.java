@@ -9,16 +9,14 @@ package hihello;
  *
  * @author perilli.alberto
  */
-public class HiHello {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        Say hi = new Say("Hi");
-        Say hello = new Say("Hello");
-        hi.start();
-        hello.start();
+public class Say extends Thread{
+    String cosaDire;
+    public Say (String cosaDire) {
+        this.cosaDire=cosaDire;
     }
-    
+    public void run(){
+        for (int i = 0; i < 10; i++) {
+            System.out.println(cosaDire);
+        }
+    }
 }
