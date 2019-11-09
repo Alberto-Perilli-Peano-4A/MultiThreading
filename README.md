@@ -44,3 +44,24 @@ Hello
 Hello
 Hello
 Hello
+Esempio output 3:
+Hi
+Hi
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hi
+Hi
+Hi
+Hi
+Hi
+Hi
+Hi
+Hi
